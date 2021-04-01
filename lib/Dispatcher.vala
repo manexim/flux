@@ -29,7 +29,7 @@ public class Flux.Dispatcher : GLib.Object {
 
     private signal void new_action_added ();
 
-    public Dispatcher () {
+    private Dispatcher () {
         middlewares = new GLib.List<Flux.Middleware> ();
         stores = new GLib.List<Flux.Store> ();
         actions = new GLib.Queue<Flux.Action> ();
