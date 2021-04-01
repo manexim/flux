@@ -20,5 +20,5 @@
  */
 
 public abstract class Flux.Middleware : GLib.Object {
-    public abstract void process(Flux.Action action);
+    public abstract void process (Flux.Action action);
 }
